@@ -11,27 +11,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="bootstrap/4/css/bootstrap.min.css" />
     <script src="dmxAppConnect/dmxBootstrap4Navigation/dmxBootstrap4Navigation.js" defer=""></script>
+    <script src="dmxAppConnect/dmxFormatter/dmxFormatter.js" defer=""></script>
 </head>
 
 <body is="dmx-app" id="index">
     <header class="bg-light">
         <div class="container">
-            <div class="row align-items-center">
+            <div class="row justify-content-between align-items-lg-center">
 
-                <div class="col-1"><a class="navbar-brand mr-auto" href="#">
-                        <img height="30" alt="Brand" src="../../../Downloads/5662fc27-1794-42e7-8cfd-7c858f2a86c6_200x200.png">
+                <div class="col"><a class="navbar-brand mr-auto" href="#">
+                        <img height="60" alt="Brand" src="assets/img/teamopp-logo-gra.png" class="">
                     </a></div>
-                <div class="col-8">
-                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="col-7">
+                    <nav class="navbar navbar-expand-lg bg-light navbar-dark">
                         <div class="navbar-nav align-self-center order-first">
-                            <a class="nav-item nav-link" href="#">Link</a>
+                            <a class="nav-item nav-link" href="about.html">About</a>
                             <a class="nav-item nav-link" href="#">Link</a>
                         </div>
 
                     </nav>
                 </div>
-                <div class="col-3 d-flex">
-                    <div class="nav text-right flex-row-reverse"></div>
+                <div class="d-flex col flex-row-reverse">
+                    <div class="nav text-right flex-row-reverse">
+                        <div class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-right" data-toggle="dropdown" href="#" id="dropdown1" role="button" aria-haspopup="true" aria-expanded="false">(dropdown)</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdown1">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -41,16 +51,16 @@
 
             <div class="row">
 
-                <div class="text-left col-4 mr-n5">
-                    <h4>Fancy display heading<br><small class="text-muted">With faded secondary text</small></h4>
+                <div class="text-left col-sm-3 col-lg-3">
+                    <h4>Markedsplassen for kompetanse<br><small class="text-muted">With faded secondary text</small></h4>
                     <p>A nice paragraph</p>
-                    <button class="btn btn-primary">Button</button>
+                    <button class="btn btn-primary">Registrer deg</button>
                 </div>
-                <div class="col ml-n5"><img src="../../../Downloads/AdobeStock_242404332.jpeg"></div>
+                <div class="col-sm-9 text-right d-none d-sm-block"><img src="assets/img/AdobeStock_242404332.jpeg" class="img-fluid flex-lg-shrink-1 d-none d-sm-inline"></div>
             </div>
         </div>
         <div class="container wappler-block pt-4 pb-4">
-            <div class="row mb-4">
+            <div class="row mb-4" is="dmx-if" id="conditional1">
                 <div class="col-12"></div>
             </div>
             <div class="row">

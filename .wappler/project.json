@@ -21,8 +21,24 @@
       "type": "local"
     }
   ],
-  "firebaseProjectID": "",
-  "herokuProjectID": "",
-  "gitURL": "",
-  "projectType": "web"
+  "projectType": "web",
+  "targets": [
+    {
+      "webServerPort": 8100,
+      "webServerLang": "PHP",
+      "PHPVersion": "7.3.x",
+      "databaseType": "postgres",
+      "databasePort": 9906,
+      "targetType": "docker",
+      "webServer": "apache",
+      "name": "teamopp-docker2",
+      "remoteURL": "http://localhost:8100",
+      "postgresVersion": "11.1.x",
+      "postgres_rootName": "db_user",
+      "postgres_rootPassword": "mgDSt1RY",
+      "postgres_databaseName": "teamopp",
+      "dockerBuild": true
+    }
+  ],
+  "activeTarget": "teamopp-docker2"
 }

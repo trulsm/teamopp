@@ -1,6 +1,6 @@
 {
   "basic": {
-    "headings-font-family": "Open Sans:400i",
+    "headings-font-family": "Carrois Gothic:400",
     "primary": "#07689F",
     "secondary": "#C9D6DF",
     "success": "#11D3BC",
@@ -9,7 +9,8 @@
     "warning": "#FF7E67",
     "light": "#FAFAFA",
     "dark": "#4e4e4e",
-    "theme": "Fresca"
+    "theme": "Fresca",
+    "enable-responsive-font-sizes": true
   },
   "advanced": {}
 }

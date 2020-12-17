@@ -2,5 +2,9 @@
   "about.html": {
     "layoutPage": "",
     "description": "About Teamopp"
+  },
+  "oppdrag.html": {
+    "layoutPage": "",
+    "description": ""
   }
 }
